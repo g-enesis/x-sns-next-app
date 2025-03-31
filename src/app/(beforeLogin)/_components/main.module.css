@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.left {
+  flex: 1;
+  background-color: #fff;
+}
+
+.right {
+  flex: 1;
+  background-color: rgb(233, 233, 233);
+}
+.mainLogoGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.authButtonGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+  flex-shrink: 1;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.link {
+  color: #fff;
+  background-color: rgb(89, 140, 235);
+  padding-inline: 2rem;
+  padding-block: 1rem;
+  border-radius: 1.5rem;
+  width: 15rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  &:hover {
+    background-color: rgb(109, 160, 255);
+  }
+}
